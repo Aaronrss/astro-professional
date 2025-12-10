@@ -1,12 +1,12 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
-import tailwindcss from '@tailwindcss/vite';
 import mdx from '@astrojs/mdx';
+import tailwindcss from '@tailwindcss/vite';
 import icon from 'astro-icon';
+import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://yourusername.github.io',
-  base: '/',
+  site: 'https://aaronrss.github.io',
+  base: '/aaronrss.github.io',
   output: 'static',
   integrations: [mdx(), icon()],
   vite: {
